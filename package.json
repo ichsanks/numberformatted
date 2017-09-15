@@ -1,0 +1,27 @@
+{
+  "name": "numberformatted",
+  "version": "1.0.0",
+  "description": "jQuery input format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jquery",
+    "custom",
+    "input",
+    "calculation"
+  ],
+  "author": "Ichsan Kurniawan",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
