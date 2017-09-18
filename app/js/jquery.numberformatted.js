@@ -125,7 +125,11 @@
             		
                 $input
                     .on('render.numberFormatted', function () {                    	
-                    	changed($input);	
+                    	changed($input);
+                        if($input.data('equation')) {                           
+                            var result = parseEquation($(this).data('equation'));
+                            $(this).val(setMaskValue(result));
+                        }                        
                     })
                     .on('keypress', function(event) {
                     	var keyCode = event.keyCode ? event.keyCode : event.which;
