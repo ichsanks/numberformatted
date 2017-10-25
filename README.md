@@ -21,3 +21,57 @@ $(function() {
 });
 </script>
 ```
+
+## Calculations
+* Add `data-cell="[cell-name]"` to input element as calculation data
+* Add `data-math="[function]"` to element as calculation result
+* Available function to use: `+, -, *, /, SUM()`
+* **Don't use the same cell-name in one page**
+
+## Examples
+
+### Addition
+```html
+<input type="text data-cell="A1" />
+<input type="text data-cell="A2" />
+<input type="text data-math="A1+A2" />
+```
+
+### Substraction
+```html
+<input type="text data-cell="A1" />
+<input type="text data-cell="A2" />
+<input type="text data-math="A1-A2" />
+```
+
+### Multiplication
+```html
+<input type="text data-cell="A1" />
+<input type="text data-cell="A2" />
+<input type="text data-math="A1*A2" />
+```
+
+### Division
+```html
+<input type="text data-cell="A1" />
+<input type="text data-cell="A2" />
+<input type="text data-math="A1/A2" />
+```
+
+### Summary
+```html
+<input type="text data-cell="A1" />
+<input type="text data-cell="A2" />
+<input type="text data-math="SUM(A)" />
+```
+
+### Chaining calculations
+```html
+<input type="text data-cell="A1" />
+<input type="text data-cell="A2" />
+<input type="text data-cell="B1" data-math="SUM(A)" />
+<input type="text data-cell="C1" />
+<input type="text data-cell="C2" />
+<input type="text data-cell="B2" data-math="C1*C2" />
+<input type="text data-math="SUM(B)" />
+```
