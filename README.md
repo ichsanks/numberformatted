@@ -30,42 +30,42 @@ $(function() {
 
 ## Examples
 
-### Addition
+#### Addition
 ```html
 <input type="text data-cell="A1" />
 <input type="text data-cell="A2" />
 <input type="text data-math="A1+A2" />
 ```
 
-### Substraction
+#### Substraction
 ```html
 <input type="text data-cell="A1" />
 <input type="text data-cell="A2" />
 <input type="text data-math="A1-A2" />
 ```
 
-### Multiplication
+#### Multiplication
 ```html
 <input type="text data-cell="A1" />
 <input type="text data-cell="A2" />
 <input type="text data-math="A1*A2" />
 ```
 
-### Division
+#### Division
 ```html
 <input type="text data-cell="A1" />
 <input type="text data-cell="A2" />
 <input type="text data-math="A1/A2" />
 ```
 
-### Summary
+#### Summary
 ```html
 <input type="text data-cell="A1" />
 <input type="text data-cell="A2" />
 <input type="text data-math="SUM(A)" />
 ```
 
-### Chaining calculations
+#### Chaining calculations
 ```html
 <input type="text data-cell="A1" />
 <input type="text data-cell="A2" />
