@@ -6,7 +6,7 @@ jQuery numberformatted is a jQuery plugin designed to help at formatting input t
 ## How to Use
 Include jQuery in your page:
 ```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 ```
 Include numberformatted plugins
 ```html
